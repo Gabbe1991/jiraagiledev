@@ -14,7 +14,7 @@ const RegistrationForm = () => {
       <input {...register('firstName', { required: 'First Name is required' })} />
       {errors.firstName && <p>{errors.firstName.message}</p>}
 
-      <label htmlFor="lastName">Last Name:</label>
+tt      <label htmlFor="lastName">Last Name:</label>
       <input {...register('lastName', { required: 'Last Name is required' })} />
       {errors.lastName && <p>{errors.lastName.message}</p>}
 
